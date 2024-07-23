@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fast-api-example"
+version = "0.1.0"
+description = "Basic implementation for ml-service based on fastapi"
+authors = ["Konstantin Ustinov <stburnv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.1"
+uvicorn = "^0.30.3"
+scikit-learn = "^1.5.1"
+numpy = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
